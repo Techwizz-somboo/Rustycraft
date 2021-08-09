@@ -52,6 +52,6 @@ and the codebase has not been tested enough to consider the server production re
 
 * Where is the original project?
 
-It's located [here] (https://github.com/feather-rs/feather) and I have nothing to do
+It's located [here](https://github.com/feather-rs/feather) and I have nothing to do
 with the original project. I plan on continuing the old project before they did the 
 refactoring of the code. This also puts it on 1.13.2 instead of 1.16.5.
