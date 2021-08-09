@@ -6,7 +6,7 @@ A Minecraft server implementation written in Rust.
 
 ### Features
 
-Note that Feather is still early in development. Don't expect anything not listed here to work.
+Note that Rustycraft is still early in development. Don't expect anything not listed here to work.
 
 - [x] Highly scalable architecture
 - [x] Anvil world loading and saving
@@ -42,8 +42,8 @@ Rustycraft currently only supports 1.13.2 clients and world saves. In the future
 ### Compiling
 Compile the server yourself to try it out:
 ```bash
-git clone https://github.com/feather-rs/feather
-cd feather
+git clone https://github.com/Techwizz-somboo/Rustycraft.git
+cd Rustycraft
 cargo build --release
 ```
 
