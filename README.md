@@ -27,7 +27,14 @@ Note that Feather is still early in development. Don't expect anything not liste
 - [x] Survival mode
 - [x] Survival mode block breaking and drops
 - [x] Health + fall damage
-- [ ] (soon) block entities, including chests
+
+### Planned Features
+
+- [ ] block entities, including chests
+- [ ] HP regen
+- [ ] Mob spawning
+- [ ] Hunger
+- [ ] Food
 
 Rustycraft currently only supports 1.13.2 clients and world saves. In the future, additional versions will be supported.
 
