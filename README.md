@@ -1,10 +1,8 @@
-# Feather
+# Rustycraft
 
 For the original project, go to https://github.com/feather-rs/feather
 
 A Minecraft server implementation written in Rust.
-
-_Notice_: The codebase is undergoing a major refactor in [this PR](https://github.com/feather-rs/feather/pull/307). The PR will be merged shortly, but the code on the `develop` branch is discontinued.
 
 ### Features
 
@@ -31,7 +29,7 @@ Note that Feather is still early in development. Don't expect anything not liste
 - [x] Health + fall damage
 - [ ] (soon) block entities, including chests
 
-Feather currently only supports 1.13.2 clients and world saves. In the future, additional versions will be supported.
+Rustycraft currently only supports 1.13.2 clients and world saves. In the future, additional versions will be supported.
 
 ### Compiling
 Compile the server yourself to try it out:
@@ -47,7 +45,7 @@ The server executable will be located in `target/release`.
 
 ### FAQ
 
-* Is Feather production ready?
+* Is Rustycraft production ready?
 
 Not yet. There are numerous bugs and missing features which have yet to be resolved,
 and the codebase has not been tested enough to consider the server production ready.
