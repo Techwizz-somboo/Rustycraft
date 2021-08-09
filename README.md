@@ -35,6 +35,7 @@ Note that Feather is still early in development. Don't expect anything not liste
 - [ ] Mob spawning
 - [ ] Hunger
 - [ ] Food
+- [ ] Save world and player position + items
 
 Rustycraft currently only supports 1.13.2 clients and world saves. In the future, additional versions will be supported.
 
