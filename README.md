@@ -1,14 +1,12 @@
-# Feather
+# Rustycraft
 
 For the original project, go to https://github.com/feather-rs/feather
 
 A Minecraft server implementation written in Rust.
 
-_Notice_: The codebase is undergoing a major refactor in [this PR](https://github.com/feather-rs/feather/pull/307). The PR will be merged shortly, but the code on the `develop` branch is discontinued.
-
 ### Features
 
-Note that Feather is still early in development. Don't expect anything not listed here to work.
+Note that Rustycraft is still early in development. Don't expect anything not listed here to work.
 
 - [x] Highly scalable architecture
 - [x] Anvil world loading and saving
@@ -29,15 +27,23 @@ Note that Feather is still early in development. Don't expect anything not liste
 - [x] Survival mode
 - [x] Survival mode block breaking and drops
 - [x] Health + fall damage
-- [ ] (soon) block entities, including chests
 
-Feather currently only supports 1.13.2 clients and world saves. In the future, additional versions will be supported.
+### Planned Features
+
+- [ ] block entities, including chests
+- [ ] HP regen
+- [ ] Mob spawning
+- [ ] Hunger
+- [ ] Food
+- [ ] Crafting
+
+Rustycraft currently only supports 1.13.2 clients and world saves. In the future, additional versions will be supported.
 
 ### Compiling
 Compile the server yourself to try it out:
 ```bash
-git clone https://github.com/feather-rs/feather
-cd feather
+git clone https://github.com/Techwizz-somboo/Rustycraft.git
+cd Rustycraft
 cargo build --release
 ```
 
@@ -47,13 +53,13 @@ The server executable will be located in `target/release`.
 
 ### FAQ
 
-* Is Feather production ready?
+* Is Rustycraft production ready?
 
 Not yet. There are numerous bugs and missing features which have yet to be resolved,
 and the codebase has not been tested enough to consider the server production ready.
 
 * Where is the original project?
 
-It's located [here] (https://github.com/feather-rs/feather) and I have nothing to do
+It's located [here](https://github.com/feather-rs/feather) and I have nothing to do
 with the original project. I plan on continuing the old project before they did the 
 refactoring of the code. This also puts it on 1.13.2 instead of 1.16.5.
