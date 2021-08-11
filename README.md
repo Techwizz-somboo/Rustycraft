@@ -51,6 +51,10 @@ Compiling from source requires `rustfmt`.
 
 The server executable will be located in `target/release`.
 
+### Test Server
+
+I am now hosting a test server running Rustycraft. To try out the current version, go into a Minecaft 1.13.2 client and connect to `techwizz-emu.com`
+
 ### FAQ
 
 * Is Rustycraft production ready?
